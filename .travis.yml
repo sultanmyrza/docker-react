@@ -6,4 +6,4 @@ before_install:
   - docker build -t sultanmyrza/docker-react -f Dockerfile.dev .
 
 script: 
-  - docker run sultanmyrza/docker-react npm run test -- --covarege
+  - docker run sultanmyrza/docker-react npm run test -- --coverage
